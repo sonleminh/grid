@@ -1,0 +1,35 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width:1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .m-o-0 {
+        margin-left: 0;
+    }
+
+    .m-o-1 {
+        margin-left: 8.33333%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .product-item-img {
+        width: 100%;
+        height: 100%;
+    }
+}
